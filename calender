@@ -1,0 +1,41 @@
+<FORM name="live">
+ 
+<BR><BR><BR>
+ 
+ 
+<TABLE border=1>
+<tr>
+	<td><INPUT TYPE="button" NAME="start" VALUE="Start" ONCLICK="lifetimer(this.form)"></td>
+	<td><INPUT TYPE="reset" NAME="resetb" VALUE="Reset Age"></td>
+</tr>
+<tr>
+	<td>Date of birth:</td>
+	<td><INPUT TYPE="text" NAME="age" VALUE="" SIZE=20 placeholder="January 10, 1994"> </td>
+</tr>
+<TR><TD>You are days old:</TD>
+ 
+<TD>
+ 
+<INPUT TYPE="text" NAME="time1" VALUE="" size=8>
+ 
+</TD>
+ 
+</TR>
+ 
+<TR><TD>Plus hours old:</TD>
+ 
+<TD>
+ 
+<INPUT TYPE="text" NAME="time2" VALUE="" size=8>
+ 
+</TD>
+ 
+</TR>
+ 
+<TR><TD>Plus minutes old:</TD>
+ 
+<TD><INPUT TYPE="text" NAME="time3" VALUE="" size=8></TD>
+ 
+</TR>
+</TABLE>
+</FORM>
